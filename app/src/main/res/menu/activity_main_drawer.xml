@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <!--美食圈-->
+        <item
+                android:id="@+id/nav_circle"
+                android:icon="@drawable/ic_chat_bubble_black_24dp"
+                android:title="美食圈"/>
+        <!--附近-->
+        <item
+                android:id="@+id/nav_nearby"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="美食地图"/>
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <!--设置-->
+        <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="设置"/>
+    </group>
+</menu>
